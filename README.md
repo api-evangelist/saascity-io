@@ -1,4 +1,4 @@
-# saascity-io
+# SaaSCity
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-saascity-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://saascity.io/
+SaaSCity is a SaaS directory and launch platform that helps startups and AI tool creators showcase their products on a live city map. Users can explore weekly SaaS and AI launches, vote for favorites, and submit their own offerings for a permanent, hand‑reviewed listing page. The platform also provides resources for founders to gain visibility and community feedback.
+
+**Areas:** SaaS · Directory · Platform · Startup · AI
+
+## SaaSCity on APIs.io
+
+Everything profiled for SaaSCity is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/saascity-io/](https://apis.io/providers/saascity-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SaaSCity MCP API](https://apis.io/apis/saascity-io/saascity-io-mcp-api/) — Model Context Protocol server (streamable HTTP, JSON-RPC 2.0).
+- [SaaSCity Nlweb API](https://apis.io/apis/saascity-io/saascity-io-nlweb-api/) — NLWeb natural-language search over live listings.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SaaSCity Agentic Access](https://apis.io/agentic-access/saascity-io/saascity-io-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [JsonRpcRequest](https://apis.io/schemas/saascity-io/saascity-io-json-rpc-request/)
+- [JsonRpcResponse](https://apis.io/schemas/saascity-io/saascity-io-json-rpc-response/)
+- [NlwebResponse](https://apis.io/schemas/saascity-io/saascity-io-nlweb-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Saascity Io Context](https://apis.io/jsonld/saascity-io/saascity-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SaaSCity API Rules](https://apis.io/rules/saascity-io/saascity-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SaaSCity Domain Security](https://apis.io/security/saascity-io/saascity-io-domain-security/)
+- [SaaSCity Vulnerability Disclosure](https://apis.io/security/saascity-io/saascity-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SaaSCity Plans Pricing](https://apis.io/plans/saascity-io/saascity-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://saascity.io/)
+- [Pricing](https://saascity.io/pricing)
+- [Blog](https://saascity.io/blog)
+- [Security](https://saascity.io/security)
+- [Terms of service](https://saascity.io/terms)
+- [Privacy policy](https://saascity.io/privacy)
+- [GitHub](https://github.com/nyyhao)
+
+## API Evangelist rating
+
+**Kin Score 47.1** — developing · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 8.8 |
+| Access clarity | 60.0 |
+
+**Agent readiness 40.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/saascity-io/](https://apis.io/providers/saascity-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SaaSCity: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/saascity-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
